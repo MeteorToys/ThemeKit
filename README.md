@@ -1,7 +1,7 @@
-ThemeKit™ - Color Your Meteor Toys™
-===================================
+ThemeKit - Color Your Meteor Toys
+=================================
 
-With so many shades of gray, how can someone ever decide how to color their Toys? Starting today, we no longer have to, as Meteor Toys can be customized with themes. You can create your own, or <a href="https://atmospherejs.com/meteortoysthemes">choose from the pre-made ones</a>.
+With so many shades of gray, how can someone ever find the right one? Starting today, we no longer have to, as Meteor Toys can be customized with themes. You can create your own, or <a href="https://atmospherejs.com/meteortoysthemes">choose from the pre-made ones</a>.
 
 <img src="https://raw.githubusercontent.com/MeteorToys/ThemeKit/master/screenshot.gif">
 
