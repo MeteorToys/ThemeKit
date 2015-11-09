@@ -1,0 +1,254 @@
+/********************************************/
+/*                                          */
+/* Meteor Toys ThemeKit v1.0                */ 
+/* Donut Change!                            */
+/*                                          */
+/********************************************/
+
+@import "config"
+
+#Mongol, #JetSetter, .MeteorToys_orb 
+  opacity: $transparency
+.MeteorToys pre, #Mongol pre, #JetSetter pre 
+  color: $shade1 !important
+.MeteorToys_string 
+  color: $string   
+.MeteorToys_number 
+  color: $number   
+.MeteorToys_boolean 
+  color: $boolean  
+.MeteorToys_null 
+  color: $null   
+.MeteorToys_key 
+  color: $key     
+.MeteorToys_date 
+  color: $date 
+.MeteorToys_string:focus, .MeteorToys_number:focus, .MeteorToys_boolean:focus, .MeteorToys_null:focus, .MeteorToys_key:focus 
+  background: $overlay1
+  color: $shade2
+.MeteorToys_inline:hover
+  background: $overlay1 !important
+.MeteorToys_action:hover 
+  color: $action !important
+.MeteorToys_disabled, .MeteorToys_disabled:hover 
+  color: $shade3 !important
+  cursor: default !important
+.MeteorToys_orb, .MeteorToys  
+  color: $shade1 !important
+.MeteorToys_orb strong, .MeteorToys strong 
+  color: $shade2 !important
+.MeteorToys_orbs ::-webkit-input-placeholder, .JetSetter_editor_title::-webkit-input-placeholder 
+  color: $shade1 !important
+.MeteorToys_orbs :-moz-placeholder, .JetSetter_editor_title:-moz-placeholder 
+  color: $shade1 !important
+.MeteorToys_orbs ::-moz-placeholder, .JetSetter_editor_title::-moz-placeholder 
+  color: $shade1 !important
+.MeteorToys_orbs :-ms-input-placeholder, .JetSetter_editor_title:-ms-input-placeholder 
+  color: $shade1 !important
+.MeteorToys_orb 
+  background: $foundation
+.MeteorToys_orb .MeteorToys_orb_wrapper 
+  box-shadow: 0 0 0 75px $overlay1
+.MeteorToys_orb_active .MeteorToys_orb_wrapper 
+  box-shadow: 0 0 0 75px $overlay2
+.MeteorToys_orb:active .MeteorToys_orb_wrapper, .MeteorToys_orb:active .MeteorToys_orb_filler_wrapper 
+  box-shadow: 0 0 0 75px $overlay2
+.MeteorToys_orb_filler_wrapper 
+  box-shadow: 0 0 0 75px $overlay1
+.MeteorToys_orb .MeteorToys_icon 
+  opacity: $opacity
+.MeteorToys_header 
+  background: $overlay1
+.MeteorToys 
+  background-color:      $foundation
+  color:                 $shade1
+.Mongol_docMenu *, .JetSetter_editor_header * 
+  border-color: $overlay2 !important
+.Mongol_docMenu, .JetSetter_editor_header 
+  background: $overlay1 !important
+.Mongol_contentView 
+  box-shadow: 0 0 0 80px $overlay1
+.Mongol_row_expand .Mongol_contentView 
+  box-shadow: 0 0 0 80px $overlay2
+.Mongol_row:active .Mongol_contentView 
+  box-shadow: 0 0 0 80px $overlay2
+.Mongol_icon 
+  opacity: $opacity
+.JetSetter_editor 
+  box-shadow: 0 0 0 50px $overlay1
+.JetSetter_row_expand .JetSetter_editor 
+  box-shadow: 0 0 0 50px $overlay2
+.JetSetter_row:active .JetSetter_editor 
+  box-shadow: 0 0 0 50px $overlay2
+.MeteorToys_email_count 
+  background: $action
+  color: $overlay2
+.MeteorToys_notifications 
+  color: $shade1
+  background: $foundation
+  opacity: $transparency
+  strong 
+    color: $shade2
+    font-weight: bold
+.MeteorToys_notification 
+  background: $foundation
+  box-shadow: inset 0 0 0 200px $overlay1
+.MeteorToys_notification_symbol, .MeteorToys_notification_symbol strong  
+  color: $shade1 !important
+.MeteorToys_notification_symbol 
+  background: $overlay2
+.MeteorToys_notification_triangle 
+  border-left-color: $shade1 !important
+.MeteorToys_notifications_highlight 
+  box-shadow: inset 0 0 0 200px $orange
+  .MeteorToys_notification_symbol 
+    background: $orange
+.MeteorToys_notification_data 
+  background: $foundation !important
+.MeteorToys_notification_widget 
+  background: $red
+  color: $shade1
+.MeteorToys_tooltip 
+  background: $foundation
+  box-shadow: inset 0 0 0 200px $overlay1
+  color: $shade1
+  opacity: $transparency
+  .MeteorToys_tooltip_arrow1 
+    border-bottom-color: $foundation !important
+  .MeteorToys_tooltip_arrow2 
+    border-bottom-color: $overlay1 !important
+.MeteorToys-border-color-red 
+  border-color: $red
+.MeteorToys-border-color-blue 
+  border-color: $blue
+.MeteorToys-border-color-green 
+  border-color: $green
+.MeteorToys-border-color-orange 
+  border-color: $orange
+.MeteorToys-border-color-yellow 
+  border-color: $yellow
+.MeteorToys-border-color-purple 
+  border-color: $purple
+.MeteorToys-border-color-transparency 
+  border-color: $transparency
+.MeteorToys-border-color-opacity 
+  border-color: $opacity
+.MeteorToys-border-color-foundation 
+  border-color: $foundation
+.MeteorToys-border-color-highlight 
+  border-color: $highlight
+.MeteorToys-border-color-overlay1 
+  border-color: $overlay1
+.MeteorToys-border-color-overlay2 
+  border-color: $overlay2
+.MeteorToys-border-color-shade1 
+  border-color: $shade1
+.MeteorToys-border-color-shade2 
+  border-color: $shade2
+.MeteorToys-border-color-shade3 
+  border-color: $shade3
+.MeteorToys-border-color-action 
+  border-color: $action
+.MeteorToys-color-red 
+  color: $red
+.MeteorToys-color-blue 
+  color: $blue
+.MeteorToys-color-green 
+  color: $green
+.MeteorToys-color-orange 
+  color: $orange
+.MeteorToys-color-yellow 
+  color: $yellow
+.MeteorToys-color-purple 
+  color: $purple
+.MeteorToys-color-transparency 
+  color: $transparency
+.MeteorToys-color-opacity 
+  color: $opacity
+.MeteorToys-color-foundation 
+  color: $foundation
+.MeteorToys-color-highlight 
+  color: $highlight
+.MeteorToys-color-overlay1 
+  color: $overlay1
+.MeteorToys-color-overlay2 
+  color: $overlay2
+.MeteorToys-color-shade1 
+  color: $shade1
+.MeteorToys-color-shade2 
+  color: $shade2
+.MeteorToys-color-shade3 
+  color: $shade3
+.MeteorToys-color-action 
+  color: $action
+.MeteorToys-background-red 
+  background: $red
+.MeteorToys-background-blue 
+  background: $blue
+.MeteorToys-background-green 
+  background: $green
+.MeteorToys-background-orange 
+  background: $orange
+.MeteorToys-background-yellow 
+  background: $yellow
+.MeteorToys-background-purple 
+  background: $purple
+.MeteorToys-background-transparency 
+  background: $transparency
+.MeteorToys-background-opacity 
+  background: $opacity
+.MeteorToys-background-foundation 
+  background: $foundation
+.MeteorToys-background-highlight 
+  background: $highlight
+.MeteorToys-background-overlay1 
+  background: $overlay1
+.MeteorToys-background-overlay2 
+  background: $overlay2
+.MeteorToys-background-shade1 
+  background: $shade1
+.MeteorToys-background-shade2 
+  background: $shade2
+.MeteorToys-background-shade3 
+  background: $shade3
+.MeteorToys-background-action 
+  background: $action
+.JetSetter_value_preview 
+  opacity: $opacity * .6 
+.MeteorToys_pubsub_button:hover 
+  color: $green
+.MeteorToys_pubsub_row_toggle:hover, .Mongol_pubsub_row_toggle:hover 
+  color: $red
+.MeteorToys a  
+  color: $green !important
+  border-bottom: 1px solid $highlight
+.MeteorToys a:hover  
+  color: $green !important
+  border-bottom: 1px solid $green
+.MeteorToys_orbs input[type="submit"]  
+  color: $green
+.MeteorToys strong  
+  color: $shade2
+.MeteorToys_orbs  
+  color: $shade1
+.MeteorToys_row  
+  border-bottom-color: $overlay1 !important
+.MeteorToys_row_remove:hover  
+  color: $red
+.MeteorToys_row:last-child  
+  border-bottom: 0px solid transparent
+.MeteorToys_row:nth-child(-n+50)  
+  border-bottom: 1px solid $overlay2
+.MeteorToys_row_hoverable:hover  
+  background: $highlight
+  border-bottom-color: $overlay1 !important
+  box-shadow: 0 -1px 0 0 $overlay1
+.MeteorToys_row_expanded  
+  border-bottom: $shade3
+.MeteorToys_row_expanded:nth-child(-n+20)  
+  border-bottom: $shade3
+.MeteorToys_row input  
+  background: $highlight !important
+.MeteorToys_icon, .Mongol_icon
+  filter: invert($invert) !important
+  -webkit-filter: invert($invert)

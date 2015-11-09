@@ -1,0 +1,385 @@
+/******************************************* */
+/*                                          */
+/* Meteor Toys ThemeKit v1.0                */
+/* Donut Change!                            */
+/*                                          */
+/******************************************* */
+/******************************************************** */
+/* # COLORS                                              */
+/*	 These are the colors for                            */
+/*	 They are mainly used for syntax coloring            */
+/******************************************************** */
+/******************************************************** */
+/* # OPACITY                                             */
+/*   $transparency is applied to entire UI               */
+/*   $opacity is applied to                              */
+/******************************************************** */
+/******************************************************** */
+/* # WIDGET COLORS                                       */
+/*   These are mainly used for the                       */
+/*   colors of the panels                                */
+/******************************************************** */
+/******************************************************** */
+/* # SHADES                                              */
+/*	 These are mainly used for the text                  */
+/******************************************************** */
+/******************************************************** */
+/* # SYNTAX COLORING                                     */
+/*   They reference the original colors you set          */
+/******************************************************** */
+#Mongol, #JetSetter, .MeteorToys_orb {
+  opacity: 0.99; }
+
+.MeteorToys pre, #Mongol pre, #JetSetter pre {
+  color: rgba(255, 255, 255, 0.5) !important; }
+
+.MeteorToys_string {
+  color: #86d040; }
+
+.MeteorToys_number {
+  color: #e5d046; }
+
+.MeteorToys_boolean {
+  color: #44a2d6; }
+
+.MeteorToys_null {
+  color: #bd3cc5; }
+
+.MeteorToys_key {
+  color: #E55B46; }
+
+.MeteorToys_date {
+  color: #44a2d6; }
+
+.MeteorToys_string:focus, .MeteorToys_number:focus, .MeteorToys_boolean:focus, .MeteorToys_null:focus, .MeteorToys_key:focus {
+  background: #4d4d4d;
+  color: rgba(255, 255, 255, 0.83); }
+
+.MeteorToys_inline:hover {
+  background: #4d4d4d !important; }
+
+.MeteorToys_action:hover {
+  color: #44a2d6 !important; }
+
+.MeteorToys_disabled, .MeteorToys_disabled:hover {
+  color: rgba(0, 0, 0, 0.5) !important;
+  cursor: default !important; }
+
+.MeteorToys_orb, .MeteorToys {
+  color: rgba(255, 255, 255, 0.5) !important; }
+
+.MeteorToys_orb strong, .MeteorToys strong {
+  color: rgba(255, 255, 255, 0.83) !important; }
+
+.MeteorToys_orbs ::-webkit-input-placeholder, .JetSetter_editor_title::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important; }
+
+.MeteorToys_orbs :-moz-placeholder, .JetSetter_editor_title:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important; }
+
+.MeteorToys_orbs ::-moz-placeholder, .JetSetter_editor_title::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important; }
+
+.MeteorToys_orbs :-ms-input-placeholder, .JetSetter_editor_title:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important; }
+
+.MeteorToys_orb {
+  background: #5f5f5f; }
+
+.MeteorToys_orb .MeteorToys_orb_wrapper {
+  box-shadow: 0 0 0 75px #4d4d4d; }
+
+.MeteorToys_orb_active .MeteorToys_orb_wrapper {
+  box-shadow: 0 0 0 75px #3b3b3b; }
+
+.MeteorToys_orb:active .MeteorToys_orb_wrapper, .MeteorToys_orb:active .MeteorToys_orb_filler_wrapper {
+  box-shadow: 0 0 0 75px #3b3b3b; }
+
+.MeteorToys_orb_filler_wrapper {
+  box-shadow: 0 0 0 75px #4d4d4d; }
+
+.MeteorToys_orb .MeteorToys_icon {
+  opacity: 0.5; }
+
+.MeteorToys_header {
+  background: #4d4d4d; }
+
+.MeteorToys {
+  background-color: #5f5f5f;
+  color: rgba(255, 255, 255, 0.5); }
+
+.Mongol_docMenu *, .JetSetter_editor_header * {
+  border-color: #3b3b3b !important; }
+
+.Mongol_docMenu, .JetSetter_editor_header {
+  background: #4d4d4d !important; }
+
+.Mongol_contentView {
+  box-shadow: 0 0 0 80px #4d4d4d; }
+
+.Mongol_row_expand .Mongol_contentView {
+  box-shadow: 0 0 0 80px #3b3b3b; }
+
+.Mongol_row:active .Mongol_contentView {
+  box-shadow: 0 0 0 80px #3b3b3b; }
+
+.Mongol_icon {
+  opacity: 0.5; }
+
+.JetSetter_editor {
+  box-shadow: 0 0 0 50px #4d4d4d; }
+
+.JetSetter_row_expand .JetSetter_editor {
+  box-shadow: 0 0 0 50px #3b3b3b; }
+
+.JetSetter_row:active .JetSetter_editor {
+  box-shadow: 0 0 0 50px #3b3b3b; }
+
+.MeteorToys_email_count {
+  background: #44a2d6;
+  color: #3b3b3b; }
+
+.MeteorToys_notifications {
+  color: rgba(255, 255, 255, 0.5);
+  background: #5f5f5f;
+  opacity: 0.99; }
+  .MeteorToys_notifications strong {
+    color: rgba(255, 255, 255, 0.83);
+    font-weight: bold; }
+
+.MeteorToys_notification {
+  background: #5f5f5f;
+  box-shadow: inset 0 0 0 200px #4d4d4d; }
+
+.MeteorToys_notification_symbol, .MeteorToys_notification_symbol strong {
+  color: rgba(255, 255, 255, 0.5) !important; }
+
+.MeteorToys_notification_symbol {
+  background: #3b3b3b; }
+
+.MeteorToys_notification_triangle {
+  border-left-color: rgba(255, 255, 255, 0.5) !important; }
+
+.MeteorToys_notifications_highlight {
+  box-shadow: inset 0 0 0 200px #e59046; }
+  .MeteorToys_notifications_highlight .MeteorToys_notification_symbol {
+    background: #e59046; }
+
+.MeteorToys_notification_data {
+  background: #5f5f5f !important; }
+
+.MeteorToys_notification_widget {
+  background: #E55B46;
+  color: rgba(255, 255, 255, 0.5); }
+
+.MeteorToys_tooltip {
+  background: #5f5f5f;
+  box-shadow: inset 0 0 0 200px #4d4d4d;
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 0.99; }
+  .MeteorToys_tooltip .MeteorToys_tooltip_arrow1 {
+    border-bottom-color: #5f5f5f !important; }
+  .MeteorToys_tooltip .MeteorToys_tooltip_arrow2 {
+    border-bottom-color: #4d4d4d !important; }
+
+.MeteorToys-border-color-red {
+  border-color: #E55B46; }
+
+.MeteorToys-border-color-blue {
+  border-color: #44a2d6; }
+
+.MeteorToys-border-color-green {
+  border-color: #86d040; }
+
+.MeteorToys-border-color-orange {
+  border-color: #e59046; }
+
+.MeteorToys-border-color-yellow {
+  border-color: #e5d046; }
+
+.MeteorToys-border-color-purple {
+  border-color: #bd3cc5; }
+
+.MeteorToys-border-color-transparency {
+  border-color: 0.99; }
+
+.MeteorToys-border-color-opacity {
+  border-color: 0.5; }
+
+.MeteorToys-border-color-foundation {
+  border-color: #5f5f5f; }
+
+.MeteorToys-border-color-highlight {
+  border-color: #737373; }
+
+.MeteorToys-border-color-overlay1 {
+  border-color: #4d4d4d; }
+
+.MeteorToys-border-color-overlay2 {
+  border-color: #3b3b3b; }
+
+.MeteorToys-border-color-shade1 {
+  border-color: rgba(255, 255, 255, 0.5); }
+
+.MeteorToys-border-color-shade2 {
+  border-color: rgba(255, 255, 255, 0.83); }
+
+.MeteorToys-border-color-shade3 {
+  border-color: rgba(0, 0, 0, 0.5); }
+
+.MeteorToys-border-color-action {
+  border-color: #44a2d6; }
+
+.MeteorToys-color-red {
+  color: #E55B46; }
+
+.MeteorToys-color-blue {
+  color: #44a2d6; }
+
+.MeteorToys-color-green {
+  color: #86d040; }
+
+.MeteorToys-color-orange {
+  color: #e59046; }
+
+.MeteorToys-color-yellow {
+  color: #e5d046; }
+
+.MeteorToys-color-purple {
+  color: #bd3cc5; }
+
+.MeteorToys-color-transparency {
+  color: 0.99; }
+
+.MeteorToys-color-opacity {
+  color: 0.5; }
+
+.MeteorToys-color-foundation {
+  color: #5f5f5f; }
+
+.MeteorToys-color-highlight {
+  color: #737373; }
+
+.MeteorToys-color-overlay1 {
+  color: #4d4d4d; }
+
+.MeteorToys-color-overlay2 {
+  color: #3b3b3b; }
+
+.MeteorToys-color-shade1 {
+  color: rgba(255, 255, 255, 0.5); }
+
+.MeteorToys-color-shade2 {
+  color: rgba(255, 255, 255, 0.83); }
+
+.MeteorToys-color-shade3 {
+  color: rgba(0, 0, 0, 0.5); }
+
+.MeteorToys-color-action {
+  color: #44a2d6; }
+
+.MeteorToys-background-red {
+  background: #E55B46; }
+
+.MeteorToys-background-blue {
+  background: #44a2d6; }
+
+.MeteorToys-background-green {
+  background: #86d040; }
+
+.MeteorToys-background-orange {
+  background: #e59046; }
+
+.MeteorToys-background-yellow {
+  background: #e5d046; }
+
+.MeteorToys-background-purple {
+  background: #bd3cc5; }
+
+.MeteorToys-background-transparency {
+  background: 0.99; }
+
+.MeteorToys-background-opacity {
+  background: 0.5; }
+
+.MeteorToys-background-foundation {
+  background: #5f5f5f; }
+
+.MeteorToys-background-highlight {
+  background: #737373; }
+
+.MeteorToys-background-overlay1 {
+  background: #4d4d4d; }
+
+.MeteorToys-background-overlay2 {
+  background: #3b3b3b; }
+
+.MeteorToys-background-shade1 {
+  background: rgba(255, 255, 255, 0.5); }
+
+.MeteorToys-background-shade2 {
+  background: rgba(255, 255, 255, 0.83); }
+
+.MeteorToys-background-shade3 {
+  background: rgba(0, 0, 0, 0.5); }
+
+.MeteorToys-background-action {
+  background: #44a2d6; }
+
+.JetSetter_value_preview {
+  opacity: 0.3; }
+
+.MeteorToys_pubsub_button:hover {
+  color: #86d040; }
+
+.MeteorToys_pubsub_row_toggle:hover, .Mongol_pubsub_row_toggle:hover {
+  color: #E55B46; }
+
+.MeteorToys a {
+  color: #86d040 !important;
+  border-bottom: 1px solid #737373; }
+
+.MeteorToys a:hover {
+  color: #86d040 !important;
+  border-bottom: 1px solid #86d040; }
+
+.MeteorToys_orbs input[type="submit"] {
+  color: #86d040; }
+
+.MeteorToys strong {
+  color: rgba(255, 255, 255, 0.83); }
+
+.MeteorToys_orbs {
+  color: rgba(255, 255, 255, 0.5); }
+
+.MeteorToys_row {
+  border-bottom-color: #4d4d4d !important; }
+
+.MeteorToys_row_remove:hover {
+  color: #E55B46; }
+
+.MeteorToys_row:last-child {
+  border-bottom: 0px solid transparent; }
+
+.MeteorToys_row:nth-child(-n+50) {
+  border-bottom: 1px solid #3b3b3b; }
+
+.MeteorToys_row_hoverable:hover {
+  background: #737373;
+  border-bottom-color: #4d4d4d !important;
+  box-shadow: 0 -1px 0 0 #4d4d4d; }
+
+.MeteorToys_row_expanded {
+  border-bottom: rgba(0, 0, 0, 0.5); }
+
+.MeteorToys_row_expanded:nth-child(-n+20) {
+  border-bottom: rgba(0, 0, 0, 0.5); }
+
+.MeteorToys_row input {
+  background: #737373 !important; }
+
+.MeteorToys_icon, .Mongol_icon {
+  filter: invert(0%) !important;
+  -webkit-filter: invert(0%); }
+
+/*# sourceMappingURL=theme.css.map */

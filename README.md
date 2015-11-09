@@ -17,6 +17,4 @@ You may publish your package however you'd like. If you would like for me to pub
 
 ## License
 
-You may distribute your package as closed source or open source, and as free or paid, under any license you wish.
-
-Meteor Toys, the design, look and feel are a copyright of FaverSocial, LLC. 
+You may distribute your package as closed source or open source, and as free or paid, under any license you wish. Meteor Toys, the design, look and feel are a copyright of FaverSocial, LLC. 
